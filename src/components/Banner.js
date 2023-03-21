@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/profileimg.png";
+import Image from "../assets/perfil2.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -61,11 +61,10 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
           >
-            <a href="#contact" className="btn btn-lg text-white text-center">
-            Contact me
-            </a>
-            <button href="#contact" className="btn btn-lg">Contact me</button>
             <a href="#contact" className="text-gradient btn-link">
+              Contact me
+            </a>
+            <a href="#work" className="text-gradient btn-link">
               My portfolio
             </a>
           </motion.div>
@@ -90,7 +89,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img src={Image} alt="" />
+            <img src={Image} alt="" className="rounded-full brightness-50"/>
           </motion.div>
         </div>
       </div>

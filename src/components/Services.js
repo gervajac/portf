@@ -32,7 +32,6 @@ const Services = () => {
                         <h3 className='h3 max-w-[455px] mb-16'>
                             I am a full stack developer with 2 years of experience.
                         </h3>
-                        <button className='btn btn-sm'>See my works</button>
                       </div>
                       <div className='flex-1'>
                           { /* services list */}
