@@ -1,9 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
 import img1 from "../assets/mymanga.png";
 import img2 from "../assets/pasteleryscreen.png";
-import img3 from "../assets/portfolio-img3.png";
+
 
 const Work = () => {
   return (

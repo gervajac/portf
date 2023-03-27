@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/perfil2.jpg";
+import Image from "../assets/gerva6.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -51,8 +51,8 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="mb-8 max-w-lg mx-auto lg:mx-0"
           >
-            rekrklae asdksadkl daskldaskldkl erwkjrewjk adsasjk erjkwrkjew
-            asdkjasdj rejkwrjkwe adjskjsdka erjaskek rejaskjrkea jkrasejr kaerkj
+            I was always a very passionate person with the technology industry. 
+            I am willing to adapt to any field of work, improve and learn from people with more experience.
           </motion.p>
           <motion.div
             variants={fadeIn("up", 0.5)}

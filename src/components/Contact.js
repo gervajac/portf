@@ -1,6 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+
 
 const Contact = () => {
   return (
@@ -25,19 +24,19 @@ const Contact = () => {
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
           >
             <input
-              className="bg-transparent border-b py-3 outline w-full placeholder:text-white focus:border-accent transition-all"
+              className="px-2 bg-transparent border-b py-3 outline w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your name"
               name="name"
             />
             <input
-              className="bg-transparent border-b py-3 outline w-full placeholder:text-white focus:border-accent transition-all"
+              className="px-2 bg-transparent border-b py-3 outline w-full placeholder:text-white focus:border-accent transition-all"
               type="email"
               placeholder="Your e-mail"
               name="email"
             />
             <textarea
-              className="bg-transparent border-b py-12 outline w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
+              className="px-2 bg-transparent border-b py-12 outline w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
               placeholder="Your message"
               name="message"
             ></textarea>

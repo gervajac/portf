@@ -1,7 +1,4 @@
 import React from 'react';
-import {BsArrowUpRight} from "react-icons/bs";
-import motion from "framer-motion";
-import fadeIn from "../variants"
 
 const services = [
   {
@@ -27,7 +24,7 @@ const Services = () => {
                   <div className='container mx-auto'>
                     <div className='flex flex-col lg:flex-row'>
                       {/* text & image */}
-                      <div className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+                      <div className='flex-1  lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
                         <h2 className='h2 text-accent mb-6'>What i Do.</h2>
                         <h3 className='h3 max-w-[455px] mb-16'>
                             I am a full stack developer with 2 years of experience.
@@ -45,16 +42,6 @@ const Services = () => {
                                     <p className='font-secondary leading-tight'>{description}</p>
                                   </div>
                                   <div className='flex flex-col flex-1 items-end'>
-                                    <a 
-                                    href="#" 
-                                    className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
-                                      <BsArrowUpRight />
-                                    </a>
-                                      <a 
-                                        href="#"
-                                        className='text-gradient text-sm'>
-                                        {link}
-                                      </a>
                                     
                                   </div>
                                 </div>
