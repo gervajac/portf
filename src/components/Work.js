@@ -33,7 +33,9 @@ const Work = () => {
               />              
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">e-commerce</span>
+                <a href="https://github.com/PF-FT30B-18/frontend">
+                <span className="text-gradient">View repository</span>
+                </a>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -55,7 +57,9 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Gastronomy contact</span>
+                <a href="https://github.com/gervajac/CarimiPastelery">
+                <span className="text-gradient">View Repository</span>
+                </a>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">

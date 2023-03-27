@@ -52,7 +52,7 @@ const Banner = () => {
             className="mb-8 max-w-lg mx-auto lg:mx-0"
           >
             I was always a very passionate person with the technology industry. 
-            I am willing to adapt to any field of work, improve and learn from people with more experience.
+            I am willing to adapt to any workspace, improve and learn from people with more experience.
           </motion.p>
           <motion.div
             variants={fadeIn("up", 0.5)}

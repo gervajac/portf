@@ -32,14 +32,16 @@ const About = () => {
               Experience
             </div>
           </div>
-          <div className="flex">
+          <div className="flex gap-x-6 lg:pag-x-10 mb-12">
             <div className="text-[40px] font-tertiary text-gradient mb-2">
-              <CountUp start={0} end={5} duration={3} />
+              +<CountUp start={0} end={10} duration={3} />
             </div>
             <div className="font-primary text-sm tracking-[2px]">Proyects</div>
           </div>
           <div className="flex gap-x-8 items-center">
+            <a href="#contact">
             <button className="btn btn-lg">Contact me</button>
+            </a>
             <a href="#" className="text-gradient btn-link">
               My Portfolio
             </a>
