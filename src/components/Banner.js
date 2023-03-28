@@ -51,8 +51,8 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="mb-8 max-w-lg mx-auto lg:mx-0"
           >
-            I was always a very passionate person with the technology industry. 
-            I am willing to adapt to any workspace, improve and learn from people with more experience.
+            I am passionate about technology, specially the emergent ones. I am malleable in order to fit any workspace environment, 
+            always looking a way to contribute to the team and learn from people with more experience.
           </motion.p>
           <motion.div
             variants={fadeIn("up", 0.5)}
