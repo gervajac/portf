@@ -17,10 +17,9 @@ const About = () => {
               boothcamp and creating proyects.
             </h3>
             <p className="mb-6">
-              I am from argentina and i have 25 years old. I'am so apassionated
-              for the development i started 2 years ago and this changed my life
-              because before the start in programmation i couldn't discover my
-              vocation.
+            I am an enthusiastic and passionate argentinian developer. 
+            I started two years ago in the programming world for curiosity, 
+            found out that this is my vocation.
             </p>
             {/* stats */}
           <div className="flex gap-x-6 lg:pag-x-10 mb-12">

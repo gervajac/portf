@@ -16,7 +16,7 @@ const Work = () => {
                 Work
               </h2>
               <p className="max-w-sm mb-16">
-              This they are my latest proyects in im worked recently. In both i worked on the front and backend. My-manga was worked in a team and the proyect of pastelery is only my.
+              This are my latest projects. One I did on my own, dividing each task as smallest as possible, creating my own tickets, following Kanban methodology; while in the other project, we work in a team, applying Scrum and Agile work methodology, I contributed in frontend and backend.
               </p>
               {/*<button className="btn btn-sm">projets</button>*/}
             </div>
