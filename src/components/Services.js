@@ -4,12 +4,12 @@ const services = [
   {
     name: "Frontend",
     description:
-      "Development with many technologies like React, JS, TypeScript, Redux, Tailwind, CSS, HTML and more.",
+      "Desarrollo con tecnologías de Frontend como React, JS, TypeScript, Redux, Tailwind, CSS, HTML and more.",
     link: "Learn more",
   },
   {
     name: "Backend",
-    description: "Development with technologies like Express, NodeJS",
+    description: "Desarrollo con Express, NodeJS, JWToken, etc.",
     link: "Learn more",
   },
   {
@@ -26,9 +26,9 @@ const Services = () => {
         <div className="flex flex-col lg:flex-row">
           {/* text & image */}
           <div className="flex-1  lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
-            <h2 className="h2 text-accent mb-6">What i Do.</h2>
+            <h2 className="h2 text-accent mb-6">Que hago.</h2>
             <h3 className="h3 max-w-[455px] mb-0">
-              I am a full stack developer with 2 years of experience.
+              Soy Desarrollador Web con 2 años de experiencia como Freelancer.
             </h3>
             <h4 className="flex p-0">
               <svg

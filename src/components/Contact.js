@@ -10,10 +10,10 @@ const Contact = () => {
           <div className="flex-1 flex justify-start items-center">
             <div>
               <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
-                Get in touch
+                Contactame
               </h4>
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
-                Let's work <br /> together!
+                Trabajemos <br /> juntos!
               </h2>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Contact = () => {
               placeholder="Your message"
               name="message"
             ></textarea>
-            <button type="submit" className="btn btn-lg">Send message</button>
+            <button type="submit" className="btn btn-lg">Enviar Mensaje</button>
           </form>
         </div>
       </div>

@@ -11,15 +11,13 @@ const About = () => {
           <div className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top rounded-full brightness-80"></div>
             {/* text */}
             <div className="flex-1">
-            <h2 className="h2 text-accent">About Me.</h2>
+            <h2 className="h2 text-accent">Sobre Mí</h2>
             <h3 className="h3 mb-4">
-              I'm a Freelance Full Stack developer with more than 800 hours in a
-              boothcamp and creating proyects.
+              Soy Desarrollador web Full Stack con más de 1000 horas en Bootcamp y en creación de más de 10 proyectos.
             </h3>
             <p className="mb-6">
-            I am an enthusiastic and passionate argentinian developer. 
-            I started two years ago in the programming world for curiosity, 
-            found out that this is my vocation.
+            Actualmente vivo en Crespo, Entre Ríos, Argentina. Tengo 25 años y siempre fui muy apasionado por la industria tecnológica. 
+            Hace dos años me introduzque en el mundo de la programación y el desarrollo Web.
             </p>
             {/* stats */}
           <div className="flex gap-x-6 lg:pag-x-10 mb-12">
@@ -27,22 +25,22 @@ const About = () => {
               <CountUp start={0} end={2} duration={3} />
             </div>
             <div className="font-primary text-sm tracking-[2px]">
-              Years of <br />
-              Experience
+              Años de <br />
+              Experiencia
             </div>
           </div>
           <div className="flex gap-x-6 lg:pag-x-10 mb-12">
             <div className="text-[40px] font-tertiary text-gradient mb-2">
               +<CountUp start={0} end={10} duration={3} />
             </div>
-            <div className="font-primary text-sm tracking-[2px]">Proyects</div>
+            <div className="font-primary text-sm tracking-[2px]">Proyectos</div>
           </div>
           <div className="flex gap-x-8 items-center">
             <a href="#contact">
-            <button className="btn btn-lg">Contact me</button>
+            <button className="btn btn-lg">Contactame</button>
             </a>
             <a href="#" className="text-gradient btn-link">
-              My Portfolio
+              Mi Portafolio
             </a>
           </div>
           </div>

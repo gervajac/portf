@@ -9,7 +9,8 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center">
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
+    >
       <div className="containter mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           <div className="flex-1 text-center font-secondary lg:text-left lg:items-center">
@@ -31,57 +32,53 @@ const Banner = () => {
             >
               <span className="text-white mr-4">I am a </span>
               <TypeAnimation
-                sequence={[
-                  "Programador",
-                  2000,
-                  "Developer",
-                  2000,
-                ]}
+                sequence={["Programador", 2000, "Developer", 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
                 repeat={Infinity}
               />
             </motion.div>
-          
-          <motion.p
-            variants={fadeIn("up", 0.6)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="mb-8 max-w-lg mx-auto lg:mx-0"
-          >
-            I am passionate about technology, specially the emergent ones. I am malleable in order to fit any workspace environment, 
-            always looking a way to contribute to the team and learn from people with more experience.
-          </motion.p>
-          <motion.div
-            variants={fadeIn("up", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
-          >
-            <a href="#contact" className="text-gradient btn-link">
-              Contact me
-            </a>
-            <a href="#work" className="text-gradient btn-link">
-              My portfolio
-            </a>
-          </motion.div>
-          <motion.div
-            variants={fadeIn("up", 0.8)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
-          >
-            <a href="https://github.com/gervajac">
-              <FaGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/gervasio-jacob/">
-              <FaLinkedin />
-            </a>
-          </motion.div>
+
+            <motion.p
+              variants={fadeIn("up", 0.6)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="mb-8 max-w-lg mx-auto lg:mx-0"
+            >
+              Siempre fui una persona muy apasionada con la industria
+              tecnológica. Estoy dispuesto a adaptarme a cualquier ámbito de
+              trabajo, mejorar y aprender de personas con más experiencia.
+            </motion.p>
+            <motion.div
+              variants={fadeIn("up", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+            >
+              <a href="#contact" className="text-gradient btn-link">
+                Contactame
+              </a>
+              <a href="#work" className="text-gradient btn-link">
+                Mi portafolio
+              </a>
+            </motion.div>
+            <motion.div
+              variants={fadeIn("up", 0.8)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+            >
+              <a href="https://github.com/gervajac">
+                <FaGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/gervasio-jacob/">
+                <FaLinkedin />
+              </a>
+            </motion.div>
           </div>
           <motion.div
             variants={fadeIn("down", 0.5)}
@@ -89,7 +86,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img src={Image} alt="" className="rounded-full brightness-50"/>
+            <img src={Image} alt="" className="rounded-full brightness-50" />
           </motion.div>
         </div>
       </div>
