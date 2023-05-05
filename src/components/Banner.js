@@ -1,11 +1,17 @@
 import React from "react";
 import Image from "../assets/gerva6.png";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaRegAddressCard } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Banner = () => {
+
+const handleDowload = () => {
+
+}
+
+
   return (
     <section
       id="home"
@@ -77,6 +83,11 @@ const Banner = () => {
               </a>
               <a href="https://www.linkedin.com/in/gervasio-jacob/">
                 <FaLinkedin />
+              </a>
+              <a 
+              onClick={() => handleDowload()}
+              href="https://drive.google.com/file/d/1FmlEwrzkgaQinP1iMgbNXQ0dECId-coV/view?usp=sharing">
+                <FaRegAddressCard />
               </a>
             </motion.div>
           </div>
