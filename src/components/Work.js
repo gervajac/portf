@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/mymanga.png";
 import img2 from "../assets/pasteleryscreen.png";
 import img3 from "../assets/gertech.png";
+import img4 from "../assets/tinderin.png"
 
 const Work = () => {
   return (
@@ -16,9 +17,7 @@ const Work = () => {
                 Trabajos
               </h2>
               <p className="max-w-sm mb-16">
-                Estos son mis ultimos proyectos. Ultimamente trabaje en
-                proyectos e-commerce, el último fue sobre una tienda informática
-                en el cual fue un trabajo individual.
+                Estos son mis ultimos proyectos. Tinderin es una red social para la búsqueda de trabajo. Gertech es un e-commerce completo.
               </p>
               {/*<button className="btn btn-sm">projets</button>*/}
             </div>
@@ -73,26 +72,26 @@ const Work = () => {
               </a>
             </div>
             <div>
-              <a href="https://carimipasteleria.netlify.app/">
+              <a href="https://gervasio-dev--tndrn.netlify.app/landing">
                 <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl max-h-[290px]">
                   {/* overlay */}
                   <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 "></div>
                   {/* Img */}
                   <img
                     className="group-hover:scale-125 transition-all duration-500"
-                    src={img2}
+                    src={img4}
                     alt=""
                   />
                   {/* pretitle */}
                   <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                    <a href="https://github.com/gervajac/CarimiPastelery">
+                    <a href="https://github.com/gervajac/socialbrand">
                       <span className="text-gradient">Ver Repositorio</span>
                     </a>
                   </div>
                   {/* title */}
                   <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                     <span className="text-3xl text-white">
-                      Carimi's Pastelery'
+                      Tinderin
                     </span>
                   </div>
                 </div>
