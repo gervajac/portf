@@ -6,11 +6,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Banner = () => {
-
-const handleDowload = () => {
-
-}
-
+  const handleDowload = () => {};
 
   return (
     <section
@@ -36,9 +32,9 @@ const handleDowload = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className="text-white mr-4">I am a </span>
+              <span className="text-white mr-4 w-full">Desarrollador</span>
               <TypeAnimation
-                sequence={["Programador", 2000, "Developer", 2000]}
+                sequence={["Frontend", 2000, "Backend", 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
@@ -53,9 +49,10 @@ const handleDowload = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Siempre fui una persona muy apasionada con la industria
-              tecnológica. Estoy dispuesto a adaptarme a cualquier ámbito de
-              trabajo, mejorar y aprender de personas con más experiencia.
+              Soy un desarrollador Web FULL STACK muy apasionado por la
+              profesión, llevo 2 años de desarrollo en proyectos
+              individuales/grupales. Estoy en busca de mi primera experiencia
+              Profesional.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.5)}
@@ -68,7 +65,7 @@ const handleDowload = () => {
                 Contactame
               </a>
               <a href="#work" className="text-gradient btn-link">
-                Mi portafolio
+                Proyectos destacados
               </a>
             </motion.div>
             <motion.div
@@ -84,9 +81,10 @@ const handleDowload = () => {
               <a href="https://www.linkedin.com/in/gervasio-jacob/">
                 <FaLinkedin />
               </a>
-              <a 
-              onClick={() => handleDowload()}
-              href="https://drive.google.com/file/d/1FmlEwrzkgaQinP1iMgbNXQ0dECId-coV/view?usp=sharing">
+              <a
+                onClick={() => handleDowload()}
+                href="https://drive.google.com/file/d/1FmlEwrzkgaQinP1iMgbNXQ0dECId-coV/view?usp=sharing"
+              >
                 <FaRegAddressCard />
               </a>
             </motion.div>
@@ -95,7 +93,7 @@ const handleDowload = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
+            className="hidden lg:flex flex-1 max-w-[320px] lg:w-[482px]"
           >
             <img src={Image} alt="" className="rounded-full brightness-50" />
           </motion.div>

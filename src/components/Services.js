@@ -4,17 +4,17 @@ const services = [
   {
     name: "Frontend",
     description:
-      "Desarrollo con tecnologías de Frontend como React, JS, TypeScript, Redux, Tailwind, CSS, HTML and more.",
+      "React, Next, JS, TypeScript, Redux, Diseño Responsivo, Tailwind, CSS, HTML",
     link: "Learn more",
   },
   {
     name: "Backend",
-    description: "Desarrollo con Express, NodeJS, JWToken, etc.",
+    description: "NodeJS, NestJS, Express, JWToken, Middlewares, API Rest",
     link: "Learn more",
   },
   {
     name: "Databases",
-    description: "MongoDB, postreSQL and MySQL.",
+    description: "MongoDB, MySQL, PostgreSQL, Firebase, DynamoDB",
     link: "Learn more",
   },
 ];
