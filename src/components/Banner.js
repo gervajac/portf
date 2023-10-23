@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/gerva6-min.webp";
+import Image from "../assets/gerva6-min.png";
 import { FaGithub, FaLinkedin, FaRegAddressCard } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
