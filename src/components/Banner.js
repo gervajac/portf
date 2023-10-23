@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/gerva6.png";
+import Image from "../assets/gerva6.webp";
 import { FaGithub, FaLinkedin, FaRegAddressCard } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -95,7 +95,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:w-[482px]"
           >
-            <img src={Image} alt="" className="rounded-full brightness-50" />
+            <img src={Image} loading="lazy" alt="" className="rounded-full brightness-50" />
           </motion.div>
         </div>
       </div>
