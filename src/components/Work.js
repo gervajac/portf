@@ -1,4 +1,6 @@
 import React from "react";
+import { Carrusel } from "./Carrusel";
+import { Tinderin } from "../proyectos";
 import img1 from "../assets/mymanga.png";
 import post from "../assets/post.png";
 import rank from "../assets/rank.png";
@@ -18,74 +20,26 @@ const Work = () => {
         <h6 className="flex justify-center text-6xl underline">
           Proyectos Destacados
         </h6>
-        <div className="flex flex-col">
-          <div className="flex flex-col w-full space-y-2 my-2">
-            <div className="flex justify-center space-x-2 items-center text-accent text-3xl font-semibold">
-              <h3 className="text-4xl font-bold">Tinderin - Red Social - </h3>
-              <a
-                className="text-white underline"
-                href="https://gervasio-dev--tndrn.netlify.app/landing"
-              >
-                visitar
-              </a>
-            </div>
-            <div className="flex justify-center sm:flex-row flex-col">
-              <p className="flex justify-center max-w-sm mb-16 items-center">
-                Desarrollé una red social con fines de búsqueda de trabajo,
-                tomando funciones y aspectos de Tinder y Linkedin.
-              </p>
-              <div class="relative w-[500px]">
-                <div class="overflow-hidden relative w-full h-auto">
-                  <img
-                    src={tinderinlanding}
-                    class="sm:w-full w-screen h-auto rounded transition-transform duration-300 transform scale-200 hover:scale-125"
-                    alt="Imagen"
-                  />
-                </div>
-                <div class="absolute bottom-0 left-0 p-4 bg-opacity-75">
-                  <h2 class="text-xl font-bold text-accent">Landing Page</h2>
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-center sm:flex-row flex-col">
-              <p className="flex justify-center max-w-sm mb-16 items-center">
-                En la sección Home los empleadores pueden matchear con los
-                empleados para luego utilizar el chat. Cada carta contiene la
-                información respectiva del trabajo en búsqueda activa o del
-                empleador.
-              </p>
-              <div class="relative w-[500px]">
-                <div class="overflow-hidden relative w-full h-auto">
-                  <img
-                    src={hometinderin}
-                    class="sm:w-full w-screen h-auto rounded transition-transform duration-300 transform scale-200 hover:scale-125"
-                    alt="Imagen"
-                  />
-                </div>
-                <div class="absolute bottom-0 left-0 p-4 bg-opacity-75">
-                  <h2 class="text-xl font-bold text-accent">Home Page</h2>
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-center sm:flex-row flex-col">
-              <p className="flex justify-center max-w-sm mb-16 items-center">
-                La sección de búsquedas es donde los empleadores pueden
-                modificar, eliminar o desactivar las búsquedas interactivamente,
-                las cartas se modifican en tiempo real.
-              </p>
-              <div class="relative w-[500px]">
-                <div class="overflow-hidden relative w-full h-auto">
-                  <img
-                    src={worksection}
-                    class="sm:w-full w-screen h-auto rounded transition-transform duration-300 transform scale-200 hover:scale-125"
-                    alt="Imagen"
-                  />
-                </div>
-                <div class="absolute bottom-0 left-0 p-4 bg-opacity-75">
-                  <h2 class="text-xl font-bold text-accent">Searchs Page</h2>
-                </div>
-              </div>
-            </div>
+        <div className="flex flex-col justify-center items-center">
+          <div className="flex justify-center mb-8 space-x-2 items-center text-accent text-3xl font-semibold">
+            <h3 className="font-bold text-4xl">
+              Tinderin - Red social de Búsqueda de Trabajo -
+            </h3>
+            <a
+              className="text-white underline"
+              href="https://nextfor.vercel.app/"
+            >
+              visitar
+            </a>
+          </div>
+          <p className="flex max-w-[1000px] text-center justify-center mb-4 items-center">
+            Desarrollé una red social con fines de búsqueda de trabajo, tomando
+            funciones y aspectos de Tinder y Linkedin. Los usuarios pueden
+            personalizar sus perfiles intuitivamente para lograr destacarse y
+            matchear.
+          </p>
+          <div className="flex flex-col w-screen justify-center items-center h-[500px] space-y-2 my-2">
+            <Carrusel imageArray={Tinderin} />
           </div>
           <div className="flex w-full flex-col justify-center items-center mt-4 space-y-2">
             <h4 className="text-2xl font-semibold my-4">
