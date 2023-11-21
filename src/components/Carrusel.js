@@ -24,7 +24,7 @@ export function Carrusel({ imageArray }) {
   console.log(imageArray, "dentro del carrusel");
 
   return (
-    <section className="relative h-[80vh] w-[1000px] overflow-hidden">
+    <section className="relative h-[80vh] w-full md:w-[1000px] overflow-hidden">
       <div className="relative h-full">
         {imageArray.map((e, index) => (
           <div className="flex flex-col" key={index}>

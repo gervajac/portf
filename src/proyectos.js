@@ -28,3 +28,39 @@ export const Tinderin = [
     text: "La sección de búsquedas es donde los empleadores pueden modificar, eliminar o desactivar las búsquedas interactivamente, las cartas se modifican en tiempo real.",
   },
 ];
+
+export const ArgentinaDevs = [
+  {
+    image: img3,
+    title: "Landing",
+    text: "Desarrollé y diseñé un foro como herramienta para los programadores argentinos con la posibilidad de compartir ideas, crear asuntos, comentar, interactuar, despejar dudas y compartir empleos.",
+  },
+  {
+    image: post,
+    title: "Home",
+    text: "Implementé un sistema de puntuación de usuarios para incentivar la actividad de estos mismos, mientras más comenten, creen posts e interactúen, mejor puntuación y visibilidad tendrán.",
+  },
+  {
+    image: rank,
+    title: "Editar Búsquedas",
+    text: "En cada Post, los usuarios pueden dar like, comentar y agregar imágenes, dando la posibilidad de debatir la idea central del Post.",
+  },
+];
+
+export const Gertech = [
+  {
+    image: gertech,
+    title: "Landing",
+    text: "Desarrollé y diseñé un tradicional E-commerce de productos informáticos con un Home que contiene un carrusel automático y secciones para filtrar y redirigir directamente a la sección de productos.",
+  },
+  {
+    image: product,
+    title: "Home",
+    text: "Sección de productos en la cual se pueden filtrar, por precio, sección, para agregar al carrito.",
+  },
+  {
+    image: carrito,
+    title: "Editar Búsquedas",
+    text: "Sección de carrito para agregar, eliminar o aumentar la cantidad de productos y calcular el coste total.",
+  },
+];
