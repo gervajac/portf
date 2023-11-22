@@ -127,7 +127,7 @@ const Work = () => {
         <div className="flex flex-col text-center items-center justify-center w-full space-y-2 ">
           <div className="flex flex-col md:flex-row justify-center mb-8 space-x-2 items-center text-accent text-3xl font-semibold">
             <h3 className="font-bold text-6xl">
-              ArgentinaDevs - Foro de Programadores
+              Gertech - Ecommerce
             </h3>
             <a
               className="text-white underline"
